@@ -63,11 +63,14 @@ void spila( )
 	int hruga[ 10 ];
 	cout << "*-------------------------------------------------------*" << endl;
 	cout << "                   NU SPILUM VID NIM!!" << endl;
+	cout <<"	             ef thu hefur tima "<<endl;
+	cout <<"	          ef thu ert ekki ad vinna i">>endl;
+	cout <<"		\"open source\"verlefni"<<endl;
 	cout << "*-------------------------------------------------------*" << endl;
 	cout << endl << endl;
 	cout << "Veljum med hve margar hrugur vid spilum. " << endl;
 	cout << "Yttu a einhvern lykil: " << endl;
-
+	
 	srand( time( 0 ) );	
 
 	hrugufjoldi = ( (rand( ) % 8 ) + 2 );
